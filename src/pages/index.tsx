@@ -13,6 +13,7 @@ import Section9 from "@component/home/Section9";
 import Container from "../components/Container";
 import AppLayout from "../components/layout/AppLayout";
 import CompanyList from "./Products/CompanyList";
+import JustForYouProdycts from "./JustForYouProducts/JustForYouProducts";
 
 
 const Home4 = () => {
@@ -25,7 +26,7 @@ const Home4 = () => {
           <Section2 />
         </Box>
         {/* <Section3 /> */}
-        <CompanyList></CompanyList>
+        <JustForYouProdycts></JustForYouProdycts>
         <Section4 />
         <Section5 />
         <Section6 />
